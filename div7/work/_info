@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial
+vdiv7
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1695345389
+!i10b 1
+!s100 KAYN[:fUjSPN0U]4Gh?_N0
+IKCZ4U5e@@fWi:^jB5S`g32
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 div7_sv_unit
+S1
+Z4 dC:/Users/weiyang/OneDrive/Desktop/ELEC402/div7
+Z5 w1695345385
+Z6 8C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/div7.sv
+Z7 FC:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/div7.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1695345389.000000
+Z10 !s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/div7.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/div7.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vtb_div7
+R0
+R1
+!i10b 1
+!s100 ]G:37T@`63IQE<oTK;>a51
+IWaFe=a6PMEL;EA]QjzCoa3
+R2
+!s105 tb_div7_sv_unit
+S1
+R4
+w1695331032
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/tb_div7.sv
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/tb_div7.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/tb_div7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/div7/tb_div7.sv|
+!i113 1
+R12
+R13
+vtff
+R0
+!s110 1695330286
+!i10b 1
+!s100 dW>`ag4OiUfFQ5AC783^G2
+IDhm<aQia_`o5O:ViQW03f2
+R2
+R3
+S1
+R4
+w1695330283
+R6
+R7
+Z14 L0 33
+R8
+r1
+!s85 0
+31
+!s108 1695330286.000000
+R10
+R11
+!i113 1
+R12
+R13
+vtff1
+R0
+R1
+!i10b 1
+!s100 MkKzngaPbL_ViaWJ8n_HG3
+Iece1Bj?R;UneOB5TaRNiJ3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+R14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtff2
+R0
+R1
+!i10b 1
+!s100 bm8VgmGW5ldkZTI7]DC[Y3
+I5d9`k6P0^C7?^gVA@;Na80
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 42
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13

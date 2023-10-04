@@ -1,0 +1,37 @@
+C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module elevator
+-- Compiling module doorcontrol
+
+Top level modules:
+	elevator
+
+} {} {}} C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_elevator
+
+Top level modules:
+	tb_elevator
+
+} {} {}} C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v {1 {vlog -work work -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FIFObuffer_tb
+
+Top level modules:
+	FIFObuffer_tb
+
+} {} {}} C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v {1 {vlog -work work -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FIFObuffer
+
+Top level modules:
+	FIFObuffer
+
+} {} {}}

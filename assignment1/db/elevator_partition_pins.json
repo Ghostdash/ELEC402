@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dooropen",
+					"strict" : false
+				},
+				{
+					"name" : "doorclose",
+					"strict" : false
+				},
+				{
+					"name" : "idle",
+					"strict" : false
+				},
+				{
+					"name" : "emergency_stop",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "destination[0]",
+					"strict" : false
+				},
+				{
+					"name" : "destination[1]",
+					"strict" : false
+				},
+				{
+					"name" : "destination[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_origin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_origin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_origin[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

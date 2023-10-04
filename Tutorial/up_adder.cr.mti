@@ -1,0 +1,15 @@
+C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module up_counter
+
+Top level modules:
+	up_counter
+
+} {} {}} C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module up_counter_tb
+
+Top level modules:
+	up_counter_tb
+
+} {} {}}

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final
+vup_counter
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1694564227
+!i10b 1
+!s100 Q==cmTcmf?BPl0CO@Z6>=0
+I:U36gWMoOL?L`6@EbKGO12
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 up_counter_sv_unit
+S1
+Z3 dC:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial
+w1694564210
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1694564227.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vup_counter_tb
+R0
+R1
+!i10b 1
+!s100 ^BQOG>?2JJ2j6j9J<M;>d3
+INf4_4WMOoJHo?[34k20dT1
+R2
+!s105 up_counter_tb_sv_unit
+S1
+R3
+w1694563592
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1694564226.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/Tutorial/up_counter_tb.sv|
+!i113 1
+R5
+R6

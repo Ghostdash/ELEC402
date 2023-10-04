@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiyang/OneDrive/Desktop/ELEC402/div7
+vdoorcontrol
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1696133469
+!i10b 1
+!s100 9nU<VnH[bZ`Ff5kYU[?2j0
+IGSG@k08ZQOOk[9E<hH>fl3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 elevator_sv_unit
+S1
+Z4 dC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1
+Z5 w1696133447
+Z6 8C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv
+Z7 FC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv
+L0 221
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1696133468.000000
+Z10 !s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+velevator
+R0
+R1
+!i10b 1
+!s100 OV18oSV<:zGgFZGgAC9ZW1
+Il0W[1aTk7LX00R6[Uj]U<3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vfifo
+R1
+!i10b 1
+!s100 eE8N7aK@4@7>AeBz2DRa73
+Id7WXT:4bS[?_47a?1OA0A3
+R2
+R4
+w1695778393
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v
+L0 35
+R8
+r1
+!s85 0
+31
+Z14 !s108 1696133469.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo_bb.v|
+!i113 1
+Z15 o-work work
+R13
+vFIFObuffer
+R1
+!i10b 1
+!s100 ijj@BEEOkUNO@]KDf]La32
+Id][G1:Gf^c[zWZ=:knF9b0
+R2
+R4
+w1695778978
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/fifo.v|
+!i113 1
+R15
+R13
+n@f@i@f@obuffer
+vFIFObuffer_tb
+R0
+R1
+!i10b 1
+!s100 COfh7FlJBheHG1<@UM^:71
+ICn3l6jDmJWB=Fd_I<V2WX2
+R2
+Z16 !s105 tb_fifo_sv_unit
+S1
+R4
+w1695779063
+Z17 8C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv
+Z18 FC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv|
+!i113 1
+R12
+R13
+n@f@i@f@obuffer_tb
+vtb_elevator
+R0
+!s110 1696133468
+!i10b 1
+!s100 ncKa1W3fd_=nd;?8BmYn03
+IJBRH7jLeo9P<o5UQ[nom80
+R2
+!s105 tb_elevator_sv_unit
+S1
+R4
+w1696133465
+8C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv
+FC:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv|
+!i113 1
+R12
+R13
+vtb_fifo
+R0
+!s110 1695778424
+!i10b 1
+!s100 gZkJ55dNMJ:MSz6WVz]E:0
+IXd^FCL7aRXmbg17[806JY3
+R2
+R16
+S1
+R4
+w1695778416
+R17
+R18
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1695778423.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_fifo.sv|
+R19
+!i113 1
+R12
+R13
