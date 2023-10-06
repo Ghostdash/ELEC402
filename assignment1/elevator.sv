@@ -246,20 +246,22 @@ output logic out);
     logic [2:0] state;
 
     always_ff @(posedge clk) begin
-        if (reset == 0 || en == 0) state <= `RESET;
-        else if (emergency_stop == 1) state <= `OPEND;
-        else if (en) begin 
-            case(state)
-                `RESET: state <= `OPEND;
-                `OPEND: state <= `WAITO;
-                `WAITO: state <= `CLOSE;
-                `CLOSE: state <= `WAITC;
-                `WAITC: state <= `READY;
-                `READY: state <= `READY;
+        case(state)
+            `RESET: begin
+                if (reset) state <= `RESET;
+                else if (emergency_stop) state <= `OPEND;
+                else if (en) state <= `OPEND;
+                else state <= `RESET;
+            end
+            `OPEND: begin 
+                if (emergency_stop == 0) state <= `WAITO;
+            end
+            `WAITO: state <= `CLOSE;
+            `CLOSE: state <= `WAITC;
+            `WAITC: state <= `READY;
+            `READY: state <= `READY;
             default: state <= `RESET;
-            endcase
-        end
-        else state <= `RESET;
+        endcase
     end
 
     always_comb begin
