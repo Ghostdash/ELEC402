@@ -16,7 +16,6 @@
 `define WAITC 3'd4
 `define READY 3'd5
 
-
 module elevator (input logic clk, input logic reset,                 
     input logic [2:0] in_origin,
     input logic [2:0] destination,
