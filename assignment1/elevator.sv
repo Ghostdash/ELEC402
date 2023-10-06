@@ -40,6 +40,7 @@ module elevator (input logic clk, input logic reset,
             state <= `newrequest;
             currentfloor <= 0;
             carrying_passenger <= 0;
+            en_doorcontrol <= 0;
         end
         else begin case (state) 
             `newrequest: begin
