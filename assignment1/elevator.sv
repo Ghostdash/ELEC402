@@ -44,7 +44,6 @@ module elevator (input logic clk, input logic reset,
         end
         else begin case (state) 
             `newrequest: begin
-                en_doorcontrol <= 0;
                 if (en) begin
                     state <= `waitrequest;
                     idle <= 0;
