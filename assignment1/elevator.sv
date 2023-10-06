@@ -47,7 +47,6 @@ module elevator (input logic clk, input logic reset,
                     state <= `waitrequest;
                     idle <= 0;
                     origin <= in_origin;
-                    en_doorcontrol <= 0;
                 end
                 else begin
                     state <= `newrequest;
@@ -247,7 +246,7 @@ output logic out);
     logic [2:0] state;
 
     always_ff @(posedge clk) begin
-        if (reset == 0 || en == 0) state <= `RESET;
+        if (reset == 0 || en != 1) state <= `RESET;
         else if (emergency_stop == 1) state <= `OPEND;
         else if (en) begin 
             case(state)
