@@ -1,49 +1,39 @@
+# 0 compiles, 2 failed with no errors.
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
 vsim -gui work.tb_elevator
 # vsim -gui work.tb_elevator 
-# Start time: 20:43:51 on Sep 30,2023
+# Start time: 15:17:24 on Oct 06,2023
 # Loading sv_std.std
 # Loading work.tb_elevator
 # Loading work.elevator
 # Loading work.doorcontrol
 add wave -position insertpoint  \
-sim:/tb_elevator/clk \
-sim:/tb_elevator/destination \
-sim:/tb_elevator/in_origin
+sim:/tb_elevator/dut/carrying_passenger \
+sim:/tb_elevator/dut/clk \
+sim:/tb_elevator/dut/currentfloor \
+sim:/tb_elevator/dut/destination \
+sim:/tb_elevator/dut/doorclose \
+sim:/tb_elevator/dut/dooropen \
+sim:/tb_elevator/dut/emergency_stop \
+sim:/tb_elevator/dut/en \
+sim:/tb_elevator/dut/en_doorcontrol \
+sim:/tb_elevator/dut/idle \
+sim:/tb_elevator/dut/in_origin \
+sim:/tb_elevator/dut/origin \
+sim:/tb_elevator/dut/out \
+sim:/tb_elevator/dut/reset \
+sim:/tb_elevator/dut/state
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: weiyang  Hostname: WINDELL-F9QMU15  ProcessID: 95572
-#           Attempting to use alternate WLF file "./wlfttz7qme".
+#           Attempting to use alternate WLF file "./wlft35bk7h".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfttz7qme
+#           Using alternate file: ./wlft35bk7h
 add wave -position insertpoint  \
-sim:/tb_elevator/doorclose \
-sim:/tb_elevator/dooropen \
-sim:/tb_elevator/emergency_stop \
-sim:/tb_elevator/en \
-sim:/tb_elevator/idle \
-sim:/tb_elevator/reset
-add wave -position insertpoint  \
-sim:/tb_elevator/dut/carrying_passenger \
-sim:/tb_elevator/dut/currentfloor \
-sim:/tb_elevator/dut/en_doorcontrol \
-sim:/tb_elevator/dut/state
-add wave -position insertpoint  \
-sim:/tb_elevator/dut/sys/out \
 sim:/tb_elevator/dut/sys/state
-run -all
-# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv(80)
-#    Time: 222 ps  Iteration: 2  Instance: /tb_elevator
-# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv line 80
-# Compile of tb_elevator.sv was successful.
-# Compile of elevator.sv was successful.
-# Compile of fifo.v was successful.
-# Compile of fifo_bb.v was successful.
-# Compile of tb_fifo.sv was successful.
-# 5 compiles, 0 failed with no errors.
 restart -f
-# Loading work.tb_elevator
-# Loading work.elevator
-# Loading work.doorcontrol
 run -all
-# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv(78)
-#    Time: 222 ps  Iteration: 2  Instance: /tb_elevator
-# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/tb_elevator.sv line 78
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(72)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 72

@@ -16,7 +16,7 @@ module elevator (input logic clk, input logic reset,
     logic carrying_passenger;
     logic out;
 
-    doorcontrol sys (clk, en_doorcontrol,emergency_stop, dooropen, doorclose, out);
+    doorcontrol sys (clk, en_doorcontrol, reset, emergency_stop, dooropen, doorclose, out);
     enum {newrequest, waitrequest, ground, two, three, four, five, stop} state;
     
     always_ff @(posedge clk) begin
@@ -220,6 +220,7 @@ endmodule
 
 module doorcontrol (input logic clk, 
 input logic en,  
+input logic reset,
 input logic emergency_stop, 
 output logic dooropen, 
 output logic doorclose,
@@ -227,8 +228,8 @@ output logic out);
     enum {RESET,OPEND, WAITO, CLOSE, WAITC, READY} state;
 
     always_ff @(posedge clk) begin
-        if (emergency_stop == 1) state <= OPEND;
-        else if (en) begin 
+        if (emergency_stop == 1 || !reset || !en) state <= RESET;
+        else begin 
             case(state)
                 RESET: state <= OPEND;
                 OPEND: state <= WAITO;
@@ -236,9 +237,9 @@ output logic out);
                 CLOSE: state <= WAITC;
                 WAITC: state <= READY;
                 READY: state <= READY;
+            default: state <= RESET;
             endcase
         end
-        else if (!en) state <= RESET;
     end
 
     always_comb begin
