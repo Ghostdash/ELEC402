@@ -246,7 +246,7 @@ output logic out);
     logic [2:0] state;
 
     always_ff @(posedge clk) begin
-        if (reset == 0 || en != 1) state <= `RESET;
+        if (reset == 0 || en == 0) state <= `RESET;
         else if (emergency_stop == 1) state <= `OPEND;
         else if (en) begin 
             case(state)
@@ -259,6 +259,7 @@ output logic out);
             default: state <= `RESET;
             endcase
         end
+        else state <= `RESET;
     end
 
     always_comb begin
