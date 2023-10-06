@@ -10,23 +10,23 @@ cModel Technology
 dC:/Users/weiyang/OneDrive/Desktop/ELEC402/div7
 vdoorcontrol
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1696630633
+Z1 !s110 1696632582
 !i10b 1
-!s100 NmgE>3b3mh^J]elbSKK7]1
-I<ajTFigUoZ4bdEE[o:^_e2
+!s100 ocVN5TJL5Y;hi?<2UI`zQ0
+I`P:4Yn]N`Bb7]FjS:oBFS3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 !s105 elevator_sv_unit
 S1
 Z4 dC:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1
-Z5 w1696630494
+Z5 w1696632579
 Z6 8C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/elevator.sv
 Z7 FC:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/elevator.sv
-L0 221
+L0 240
 Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1696630633.000000
+Z9 !s108 1696632582.000000
 Z10 !s107 C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/elevator.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/elevator.sv|
 !i113 1
@@ -36,8 +36,8 @@ velevator
 R0
 R1
 !i10b 1
-!s100 ai4acXWm@7lVfRbH>VSVh1
-Ib:Wg4EOUOi76@;7Vgi3]M2
+!s100 a7@R@WoYRn3`;Uhz;ai2M0
+IjHN=n]m>K:J>9@gQB<<`h0
 R2
 R3
 S1
@@ -45,7 +45,7 @@ R4
 R5
 R6
 R7
-L0 3
+L0 20
 R8
 r1
 !s85 0
@@ -128,13 +128,13 @@ vtb_elevator
 R0
 R1
 !i10b 1
-!s100 @P]JOohMPl[329_E7QCZ93
-IJZ405UHHh0A@5MRamCkSm1
+!s100 HD1;@Z_4DcJNUz7H9cAOV1
+Ia:Cdei^^9MFn?4_lCzF7O0
 R2
 !s105 tb_elevator_sv_unit
 S1
 R4
-w1696630534
+w1696631532
 8C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv
 FC:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv
 L0 4

@@ -1,1 +1,8 @@
+C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv {1 {vlog -work work -sv -stats=none C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_elevator
 
+Top level modules:
+	tb_elevator
+
+} {} {}}

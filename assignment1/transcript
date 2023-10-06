@@ -37,3 +37,81 @@ run -all
 # ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(72)
 #    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
 # Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 72
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(72)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 72
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(73)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 73
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv failed with 46 errors.
+# 2 compiles, 1 failed with 46 errors.
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(73)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 73
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(73)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 73
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(73)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 73
+# Compile of tb_elevator.sv was successful.
+# Compile of elevator.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_elevator
+# Loading work.elevator
+# Loading work.doorcontrol
+run -all
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv(73)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Module tb_elevator at C:/Users/weiyang/OneDrive/Desktop/ELEC402/ELEC402/assignment1/tb_elevator.sv line 73

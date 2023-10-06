@@ -21,6 +21,7 @@ module tb_elevator();
         reset = 0;
         #2;
         reset = 1;
+        emergency_stop = 0;
 
         en = 1;
         in_origin = 4;
